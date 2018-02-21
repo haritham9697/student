@@ -59,6 +59,7 @@ namespace studapi.DAL
             SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.Connection = myconnection;
             List<student> lstStud = new List<Models.student>();
+            int a;
 
             sqlCmd.CommandType = CommandType.Text;
             sqlCmd.CommandText = "Select ID,Firstname,Lastname,Dateofbirth,Image from students ";
