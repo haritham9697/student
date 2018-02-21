@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="www.swaasapi.dx.am" />
+  <setParameter name="myconnection-Web.config Connection String" value="Data Source=DESKTOP-BK7ERJJ\SQLEXPRESS01;Initial Catalog=studentsinfo;Integrated Security=True" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="DefaultConnection_ConnectionString" />
+</parameters>
