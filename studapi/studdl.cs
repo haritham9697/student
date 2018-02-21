@@ -62,6 +62,7 @@ namespace studapi.DAL
             int a;
             int b;
             int c;
+            int d;
             sqlCmd.CommandType = CommandType.Text;
             sqlCmd.CommandText = "Select ID,Firstname,Lastname,Dateofbirth,Image from students ";
             SqlDataReader reader = null;
